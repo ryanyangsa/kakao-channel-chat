@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>라이언의 실험실</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="background_img">
+    <h1 class="title">라이언의 실험실</h1>
+    <div class="chatbot_container">
+	<a href="javascript:kakaoChatChannel()" class="chatbot" title="카카오톡 채팅상담"><span class="txt">채팅상담</span></a>
+    </div>
+</body>
+
+<script src="https://t1.kakaocdn.net/kakao_js_sdk/2.4.0/kakao.min.js" integrity="sha384-mXVrIX2T/Kszp6Z0aEWaA8Nm7J6/ZeWXbL8UpGRjKwWe56Srd/iyNmWMBhcItAjH" crossorigin="anonymous"></script>
+
+<script>
+    Kakao.init('8487dd1ad3b20e7d11cbd1d5dbac4779');
+</script>
+
+<script>
+    function kakaoChatChannel() {
+        Kakao.Channel.chat({
+            channelPublicId: '_xfCMLK', // K-SURE : _xfCMLK / 라이언양 : _xbxljNxj
+        });
+    }
+</script>
+
+</html>
